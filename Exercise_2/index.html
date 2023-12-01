@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./Deck.js" defer></script>
+    <title>Deck Card</title>
+</head>
+<body>
+    <div>
+    <div>
+        <input type="radio" name="type" id="spanish" value="spanish">
+        <label for="Spanish">Spanish</label>
+        <input type="radio" name="type" id="french" value="french">
+        <label for="French">French</label>
+        <button id="start" >Start</button>
+    </div><br>
+    <div>
+        <textarea id="cards" cols="100" rows="30" disabled></textarea><br>
+        <button id="shuffle" type="button"> Shuffle</button>
+    </div><br>
+    <div>
+        <input id="Addvalue" type="text" />
+        <input id="Addsuit" type="text" />
+    </div><br>
+    <button id="add" type="button"> Add</button>
+    <br>
+    <div>
+        <input id="removevalue" type="text" />
+        <input id="removesuit" type="text" />
+    </div><br>
+    <button id="remove" type="button"> Remove</button>
+</div>
+</body>
+</html>
